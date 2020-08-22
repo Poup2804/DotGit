@@ -1,0 +1,38 @@
+{
+  "name": "dotgit",
+  "version": "3.7.4",
+  "description": "An extension to check if .git is exposed in visited websites",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config webpack.dev.js",
+    "prod": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Poup2804/DotGit.git"
+  },
+  "author": "Poup2804",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Poup2804/DotGit/issues"
+  },
+  "homepage": "https://github.com/Poup2804/DotGit#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^4.2.1",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.10.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.3",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "jszip": "^3.5.0",
+    "materialize-css": "^1.0.0-rc.2",
+    "pako": "^1.0.11"
+  }
+}

@@ -1,3 +1,5 @@
+require('../css/options.css');
+
 function set_gui(options) {
     let colors = document.getElementById("color");
     for (let i = 0; i < colors.length; i++) {

@@ -1,3 +1,6 @@
+const JSZip = require("jszip")
+const {ungzip} = require("pako")
+
 const DEFAULT_OPTIONS = {
     "color": "grey",
     "max_sites": 100,
@@ -214,7 +217,7 @@ function startDownload(baseUrl, downloadFinished) {
 
                     if (decompress) {
                         // decompress objects
-                        let data = pako.ungzip(words);
+                        let data = ungzip(words);
                         callback(arrayBufferToString(data));
                     } else {
                         // plaintext file

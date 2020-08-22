@@ -1,3 +1,5 @@
+require('../css/popup.scss');
+
 // Not supported on Firefox for Android
 if (chrome.browserAction.setBadgeText) {
     chrome.browserAction.setBadgeText({
