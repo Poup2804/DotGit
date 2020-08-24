@@ -7,6 +7,7 @@ var path = require("path"),
 var options = {
   mode: "development",
   devtool: "eval-cheap-module-source-map",
+  watch: true,
   entry: {
     popup: path.join(__dirname, "src", "js", "popup.js"),
     options: path.join(__dirname, "src", "js", "options.js"),
